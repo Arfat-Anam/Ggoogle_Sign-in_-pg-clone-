@@ -5,7 +5,6 @@ This project is a simple and responsive **Google Sign-In page clone**, built usi
 ---
 
 
-
 ## 🔧 Built With
 
 - HTML5
