@@ -6,11 +6,9 @@ This project is a simple and responsive **Google Sign-In page clone**, built usi
 
 ## 💻 Demo
 
-[Click here to view the live site](https://Arfat-Anam.github.io/google-signin-clone/)  
+[Click here to view the live site]file:///C:/Users/ADMIN/Desktop/Anam/index.HTML 
 
-> 📌 *Live demo link coming soon...*
 
----
 
 ## 🔧 Built With
 
