@@ -6,7 +6,7 @@ This project is a simple and responsive **Google Sign-In page clone**, built usi
 
 ## 💻 Demo
 
-[Click here to view the live site]file:///C:/Users/ADMIN/Desktop/Anam/index.HTML 
+[Click here to view the live site]file:///C:/Users/ADMIN/Desktop/Anam/index.HTML. 
 
 
 
