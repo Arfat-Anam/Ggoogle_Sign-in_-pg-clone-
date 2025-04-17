@@ -6,7 +6,7 @@ This project is a simple and responsive **Google Sign-In page clone**, built usi
 
 ## 💻 Demo
 
-![Screenshot](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
+[Click here to view the live site](https://Arfat-Anam.github.io/google-signin-clone/)  
 
 > 📌 *Live demo link coming soon...*
 
