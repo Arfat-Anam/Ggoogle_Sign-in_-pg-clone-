@@ -1,23 +1,49 @@
+<!-- 
+  Modified Google Sign-In Clone 
+  Author: sania1125 (GitHub)
+  Description: Enhanced version with better semantics, accessibility, and customization options.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Google Sign-In</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="signin-box">
+  <section class="signin-box">
+    <!-- Google Logo -->
     <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" class="logo" alt="Google Logo">
+
     <h2>Sign in</h2>
     <p>Use your Google Account</p>
+
+    <!-- Sign-in Form -->
     <form>
-      <input type="email" placeholder="Email or phone" required>
+      <input 
+        type="email" 
+        id="user-email" 
+        name="user-email" 
+        placeholder="Email or phone" 
+        required
+        aria-label="Email or phone"
+      >
       <a href="#">Forgot email?</a>
       <button type="submit">Next</button>
     </form>
-    <p class="footer-text">Not your computer? Use Guest mode to sign in privately.</p>
+
+    <!-- Footer Note -->
+    <p class="footer-text">
+      Not your computer? Use Guest mode to sign in privately.
+    </p>
     <a href="#">Learn more</a>
-    <p><a href="#">Create account</a></p>
-  </div>
+
+    <!-- Account Creation -->
+    <p>
+      <a href="#">Create account</a>
+    </p>
+  </section>
 </body>
 </html>
