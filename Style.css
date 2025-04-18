@@ -1,3 +1,9 @@
+/* 
+  Google Sign-In Clone - Modified Style
+  Author: sania1125 (GitHub)
+  Description: Enhanced styles with better UX, responsiveness, and design polish.
+*/
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
@@ -9,39 +15,58 @@ body {
 }
 
 .signin-box {
-  background-color: white;
+  background-color: #ffffff;
   padding: 40px;
-  border-radius: 10px;
-  width: 360px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 360px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
   text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
 }
 
 .logo {
   width: 90px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 8px;
+  color: #202124;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 input {
   padding: 12px;
-  margin: 10px 0;
-  border: 1px solid #ddd;
+  margin: 8px 0;
+  border: 1px solid #dadce0;
   border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #1a73e8;
+  box-shadow: 0 0 0 1px #1a73e8;
 }
 
 button {
   padding: 12px;
+  margin-top: 10px;
   background-color: #1a73e8;
-  color: white;
+  color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -53,10 +78,21 @@ a {
   font-size: 14px;
   margin-top: 10px;
   text-decoration: none;
+  transition: text-decoration 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .footer-text {
   font-size: 13px;
-  color: #555;
+  color: #5f6368;
   margin: 20px 0 10px;
+}
+
+/* Simple fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
