@@ -9,7 +9,7 @@ This project replicates the look and feel of the official Google login screen fo
 
 > *This is a static clone. It does not include any backend or authentication logic.*
 
-[![Google Sign-In Page](screenshot.jpg)](screenshot.jpg)
+[Click here to view the screenshot](screenshot.jpg)
 ---
 
 ## 🔧 Technologies Used
